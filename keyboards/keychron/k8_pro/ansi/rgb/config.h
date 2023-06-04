@@ -20,6 +20,7 @@
 #define TAPPING_TERM 195
 
 // Prevent normal rollover on alphas from accidentally triggering mods.
+// TODO: This will be deprecated; confirm that QMK is behaving as if this were default in the keychron deployment.
 #define IGNORE_MOD_TAP_INTERRUPT
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
